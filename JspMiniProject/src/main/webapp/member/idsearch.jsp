@@ -3,14 +3,13 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <%
-
-	String id = request.getParameter("id");
-	MemberDao dao = new MemberDao();
+	String id=request.getParameter("id");
+	MemberDao dao=new MemberDao();
 	
-	int count = dao.isIdCheck(id);
+	int count=dao.isIdCheck(id);
 	
-	JSONObject ob = new JSONObject();
-	ob.put("count",count);
+	JSONObject ob=new JSONObject();
+	ob.put("count", count);
 %>
 
 <%=ob.toString()%>

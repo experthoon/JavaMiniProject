@@ -3,12 +3,15 @@ package data.dto;
 import java.sql.Timestamp;
 
 public class GuestDto {
+
 	private String num;
 	private String myid;
 	private String content;
 	private String photoname;
-	private int chu ;
+	private int chu;
 	private Timestamp writeday;
+	
+	
 	public String getNum() {
 		return num;
 	}
@@ -45,6 +48,7 @@ public class GuestDto {
 	public void setWriteday(Timestamp writeday) {
 		this.writeday = writeday;
 	}
+	
 	
 	
 }

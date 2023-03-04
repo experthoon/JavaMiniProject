@@ -20,7 +20,7 @@
 	%>
 	
 	<div>
-		<img alt = "" src = "image2/c1.png">
+		<img alt = "" src = "image2/s6.JPG">
 		<b><%=name %>님의 회원가입을 축하합니다</b>
 		<br><br>
 		
